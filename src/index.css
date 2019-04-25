@@ -1,0 +1,42 @@
+body{
+  background-color:#003249;
+}
+.bgc{
+  color:#003249;
+  background-color:#CCDBDC;
+}
+.bgl{
+  color:#003249;
+  background-color:#007EA7;
+}
+.bgi{
+  color:#003249;
+  background-color:#80CED7;
+}
+.form-group {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.form-control-placeholder {
+  position: absolute;
+  top: 0;
+  padding: 7px 0 0 13px;
+  transition: all 250ms ease-in-out;
+  opacity: 0.5;
+}
+
+.form-control:focus + .form-control-placeholder,
+.form-control:valid + .form-control-placeholder {
+  font-size: 75%;
+  transform: translate3d(0, -100%, 0);
+  opacity: 1;
+  color:#003249;
+
+}
+nav{
+  background-color : #007EA7;
+}
+.nav-item:hover{
+  background-color:black;
+}
